@@ -1,0 +1,8 @@
+Visualizador de Armas para Monster Hunter World
+###############################################
+
+Pela barra de pesquisa na esquerda é possivél buscar uma arma por nome, caso não encontrar mostra a lista completa.
+Clicando no nome da arma na sidebar ou na sessão "Anterior" e "Proximas" no card vai abrir a arma à direita.
+Clicando no X no canto superior de um card vai remove-lo da tela
+
+JSON da API não incluso, vai precisar de internet.
