@@ -1,0 +1,115 @@
+body {
+    background-color: #5d5b52;
+}
+
+input {
+    border-radius: 4px;
+    width: 96%;
+}
+
+label {
+    color: antiquewhite;
+    padding: 30%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th,
+td {
+    border: 2px #0d1623;
+    border-style: solid;
+    border-radius: 1px;
+    padding: 6px 16px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+div div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.weaponTable {
+    background-color: #1d3d31f2;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    border: #000000a2;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 2px 1px;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
+}
+
+.icon2 {
+    height: 30px;
+    width: 30px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    background-color: #454141;
+    border: 2px #0d1623;
+    border-radius: 6px;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.scroll-container {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.header {
+    position: fixed;
+    color: rgb(17, 16, 16);
+    top: 0;
+    left: 40%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #565652;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+
+.longlist{
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+button {
+    background-color: rgb(96, 0, 0);
+    border: 2px #000000a2;
+    border-style: solid;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+#logo {
+    height: 15%;
+    width: 190px;
+}
